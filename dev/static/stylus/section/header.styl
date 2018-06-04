@@ -1,0 +1,134 @@
+.header
+  padding 80px 0 27px
+
+.header__wrap
+  position relative
+
+.header__title
+  display flex
+  flex-wrap wrap
+  margin 0
+  line-height 1
+
+.header__char
+  font-size 130px
+  line-height 130px
+  font-weight 900
+  text-transform uppercase
+  letter-spacing 9.75px
+  position relative
+  margin-bottom 67px
+  opacity 0
+  animation fade .3s forwards
+  transition all .2s
+  cursor: pointer
+  &:hover
+    transform scale(1.1)
+  &--red
+    color accent-color
+  &--gray
+    color gray-color
+    &:before
+      content ''
+      display block
+      width 100%
+      height 100%
+      position absolute
+      top 0
+      left 0
+      transform translateX(-50%)
+      z-index 2
+      background #fff
+  &+&
+    margin-left perc(240)
+  &:first-child
+    margin-left perc(351)
+  &:nth-child(4)
+    margin-left perc(466)
+  &:nth-child(7)
+    margin-left perc(240)
+  &:last-child
+    margin-left perc(278)
+
+.header__subtitle
+  position absolute
+  left perc(136)
+  top 50%
+  transform translateY(-50%)
+  animation fade .3s forwards
+  animation-delay .7s
+  opacity 0
+
+.header__row
+  display flex
+  &:nth-child(even)
+    margin-left 43px
+  &+&
+    margin-top 32px
+
+.header__block
+  color black
+  font-weight 300
+  text-transform uppercase
+  letter-spacing 1.35px
+  width 13px
+  display block
+  text-align center
+  &+&
+    margin-left 30px
+
+.header__year
+  color black
+  font-weight 300
+  text-transform uppercase
+  letter-spacing 0.18px
+  position absolute
+  top 105px
+  right perc(105)
+  animation fade .3s forwards
+  animation-delay .7s
+  opacity 0
+
+.header__name
+  display block
+  max-width 107px
+  color black
+  font-weight 300
+  text-transform uppercase
+  letter-spacing 0.18px
+  padding-bottom 12px
+  position absolute
+  bottom 83px
+  right perc(107)
+  opacity 0
+  animation fade .3s forwards
+  animation-delay .8s
+  &:after
+    content ''
+    display block
+    background #e05471
+    width 0
+    height 1px
+    position absolute
+    left 0
+    bottom 0
+    animation line .5s forwards
+    animation-delay: 1.2s
+
+@keyframes line {
+  from {
+    width 0
+  }
+  to {
+    width 100%
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity 0
+  }
+  to {
+    opacity 1
+  }
+}

@@ -13,6 +13,7 @@ html(lang="ru-RU")
 		//- favicon block start
 		//- favicon block end
 
+		// Стили
 		link(rel="stylesheet" type='text/css' href="app/css/foundation.css")
 		link(rel="stylesheet" type='text/css' href="app/css/main.css")
 
@@ -21,9 +22,13 @@ html(lang="ru-RU")
 		<![endif]-->
 		body
 			.wrapper
+				// Шапка сайта
 				include ../section/header
+				// Контент
 				block content
+				// Подвал сайта
 				include ../section/footer
+			// Скрипты
 			script(src="app/js/libs.min.js")
 			script(src="app/js/app.js")
 			block script

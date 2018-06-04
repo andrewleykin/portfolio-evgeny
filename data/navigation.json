@@ -1,7 +1,24 @@
 {
-  "navPages": {
-    "Главная страница" : "main.html",
-    "О компании" : "about.html",
-    "Каталог" : "catalog.html"
-  }
+  "navMain": [
+    {
+      "text": "Who I’m",
+      "href": "#about",
+      "counter": "01"
+    },
+    {
+      "text": "What i do",
+      "href": "#doing",
+      "counter": "01"
+    },
+    {
+      "text": "MY WORKS",
+      "href": "#works",
+      "counter": "01"
+    },
+    {
+      "text": "Contact me",
+      "href": "#contact",
+      "counter": "01"
+    }
+  ]
 }

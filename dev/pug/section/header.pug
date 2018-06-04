@@ -1,0 +1,13 @@
+header.header
+  .container
+    .header__wrap
+      h1.header__title
+        each char in content.header.big
+          span.header__char(class="header__char--"+char["mod"]  style={'animation-delay': char["delay"]})= char["chart"]
+      .header__subtitle
+        each val in content.header.small
+          .header__row
+            each item in val["char"]
+              span.header__block= item["oneChar"]
+      span.header__year= content.header.year
+      span.header__name= content.header.name

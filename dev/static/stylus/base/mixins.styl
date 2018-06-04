@@ -34,6 +34,9 @@ relative($top = null, $right = null,  $bottom = null, $left = null)
 rem(size)
 	return (size/16)rem
 
+perc(n)
+	return (n*100 / 1366)%
+
 size(a, b = false)
 	width a
 	if b

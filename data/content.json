@@ -1,6 +1,120 @@
 {
-  "content": {
-    " " : " ",
-    " " : " "
+  "header": {
+    "big": [
+      {
+        "chart": "P",
+        "mod": "red",
+        "delay": ".5s"
+      },
+      {
+        "chart": "O",
+        "mod": "gray",
+        "delay": ".4s"
+      },
+      {
+        "chart": "R",
+        "mod": "red",
+        "delay": ".45s"
+      },
+      {
+        "chart": "T",
+        "mod": "red",
+        "delay": ".55s"
+      },
+      {
+        "chart": "F",
+        "mod": "red",
+        "delay": ".6s"
+      },
+      {
+        "chart": "O",
+        "mod": "gray",
+        "delay": ".32s"
+      },
+      {
+        "chart": "L",
+        "mod": "red",
+        "delay": ".23s"
+      },
+      {
+        "chart": "I",
+        "mod": "red",
+        "delay": ".52342s"
+      },
+      {
+        "chart": "O",
+        "mod": "gray",
+        "delay": ".4222s"
+      }
+    ],
+    "small": [
+      {
+        "char": [
+          {
+            "oneChar": "P" 
+          },
+          {
+            "oneChar": "O" 
+          },
+          {
+            "oneChar": "R" 
+          }
+        ]
+      },
+      {
+        "char": [
+          {
+            "oneChar": "T" 
+          },
+          {
+            "oneChar": "F" 
+          },
+          {
+            "oneChar": "O" 
+          }
+        ]
+      },
+      {
+        "char": [
+          {
+            "oneChar": "L" 
+          },
+          {
+            "oneChar": "I" 
+          }
+        ]
+      },
+      {
+        "char": [
+          {
+            "oneChar": "O" 
+          }
+        ]
+      }
+    ],
+    "name": "Egorov Evgeny",
+    "year": "2018"
+  },
+  "navigation": {
+    "about": "about me",
+    "img": {
+      "src": "app/img/content/navigation/photo.jpg",
+      "alt": "Евгений Егоров Фото"
+    }
+  },
+  "about": {
+    "count": "01",
+    "review": "Once upon i just asked myself, what a can do by my brains? The answer was single - web design.  ",
+    "title": "Who I’m",
+    "header": "Not ordinary man from the biggest country",
+    "info": "simple talk, unusual approach",
+    "texts": [
+      {
+        "item": "Hello, my name is Evgeny, 27 y.o and now i’m living in Moscow, Golyanovo distict - one of the most dangerous areas in the world."
+      },
+      {
+        "item": "If you want to hear how i get started in digital sphere - it was not a long story."
+      }
+    ]
   }
 }

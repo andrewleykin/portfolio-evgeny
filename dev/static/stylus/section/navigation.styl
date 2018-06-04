@@ -1,0 +1,62 @@
+.navigation
+  position relative
+  height 700px
+  &:before
+    content ''
+    display block
+    width 50%
+    height 100%
+    position absolute
+    top 0
+    left 0
+    background-image linear-gradient(to top, #e0545d 0%, #e05475 100%)
+    z-index -1
+
+.navigation__wrap
+  width 50%
+  margin-left auto
+
+.navigation__title
+  display flex
+  flex-direction row
+  position absolute
+  top -5px
+  bottom 0
+  left 50%
+  transform translateX(-57%)
+
+.navigation__block
+  writing-mode vertical-lr
+  transform rotate(180deg)
+  color #ffffff
+  font-size 123px
+  font-weight 900
+  text-transform uppercase
+  letter-spacing -0.23px
+  text-align right
+  &:nth-child(n+5)
+    color accent-color
+
+sizes = {
+  '1': 110px
+  '2': 98px
+  '3': 81.2px
+  '4': 66px
+  '5': 53.6px
+  '6': 43.5px
+  '7': 35.4px
+  '8': 28.75px
+  '9': 23.36px
+  '10': 19px
+  '11': 15.42px
+  '12': 12.5px
+  '13': 10.18px
+  '14': 8.27px
+  '15': 6.72px
+  '16': 5.46px
+  '17': 4.44px
+}
+
+for index, size in sizes
+  .navigation__block--{index}
+    font-size size
