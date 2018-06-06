@@ -17,6 +17,28 @@
           "alt": "Fb",
           "href": "#"
         }
+      ],
+      "contact": [
+        {
+          "src": "app/img/general/vk-b.png",
+          "alt": "Vk",
+          "href": "#"
+        },
+        {
+          "src": "app/img/general/inst-b.png",
+          "alt": "Inst",
+          "href": "#"
+        },
+        {
+          "src": "app/img/general/fb-b.png",
+          "alt": "Fb",
+          "href": "#"
+        },
+        {
+          "src": "app/img/general/be-b.png",
+          "alt": "Fb",
+          "href": "#"
+        }
       ]
     }
   },
@@ -311,8 +333,39 @@
     "title": "New projects coming soon...",
     "text": "Some of my new projects coming as soon, as you will order a new project from me. So you can watch them in my portfolio or can write personal to me if you have some questions.",
     "link": {
-      "href": "#contacts",
+      "href": "#contact",
       "text": "CONTACT ME"
+    }
+  },
+  "contact": {
+    "title": "contact me",
+    "text": "I hope that my portfolio really inpire you and there is no questions to trust me. Thank you for watching ",
+    "form": {
+      "textarea": {
+        "name": "message",
+        "id": "message",
+        "label": "Message"
+      },
+      "list": [
+        {
+          "type": "text",
+          "name": "name",
+          "id": "name",
+          "label": "Name",
+          "dataName": "name"
+        },
+        {
+          "type": "text",
+          "name": "email",
+          "id": "email",
+          "label": "E-mail",
+          "dataName": "email"
+        }
+      ],
+      "btn": {
+        "type": "submit",
+        "text": "send a message"
+      }
     }
   }
 }

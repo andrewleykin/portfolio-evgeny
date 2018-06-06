@@ -1,9 +1,9 @@
 section.landing
   .container
     .landing__wrap
-      .landing__img
+      .landing__img.wow.fadeInLeft
         img(src=content.landing.img.src, alt=content.landing.img.alt)
-      .landing__content
+      .landing__content.wow.fadeInRight
         .landing__info
           h2.landing__title= content.landing.title
           each val in content.landing.texts

@@ -1,14 +1,14 @@
 section.works#works
   .container
     .works__wrap
-      .works__img
+      .works__img.wow.fadeInLeft
         img(src=content.works.img.src, alt=content.works.img.alt)
         span.works__count= content.works.count
         span.works__name= content.works.title
         h2.works__title
           each val in content.works.big
             span.works__block= val["char"] 
-      .works__content
+      .works__content.wow.fadeInRight
         .works__header
           .works__icon
             img(src=content.works.icon.src, alt=content.works.icon.alt)

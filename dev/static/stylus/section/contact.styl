@@ -1,0 +1,86 @@
+.contact
+  background url('../img/content/contact/bg.jpg') center no-repeat
+  background-size cover
+  padding 70px 0 60px perc(156)
+
+.contact__wrap
+  display flex
+  align-items: center
+
+.contact__social
+  margin-right perc(67)
+  display flex
+  flex-direction column
+
+.contact__el
+  opacity 0.8
+  @extend .trs
+  &:hover
+    opacity 1
+  &+&
+    margin-top 22px
+
+.contact__content
+  max-width 463px
+  color #ffffff
+
+.contact__title
+  font-size 30px
+  font-weight 300
+  text-transform uppercase
+  letter-spacing 3px
+  margin-bottom 35px
+
+.contact__text
+  font-weight 200
+  line-height 27px
+  letter-spacing 0.4px
+  margin-bottom 55px
+  max-width 345px
+
+.contact__group
+  position relative
+  &+&
+    margin-top 20px
+  &--textarea
+    margin-top 29px
+
+.contact__input
+  color #ffffff
+  font-size 30px
+  font-weight 200
+  line-height 27px
+  letter-spacing 3px
+  padding 13px 10px
+  border-bottom: 1px solid rgba(#fff, 0.29)
+  background none
+  @extend .trs
+  cursor pointer
+  &:focus
+    border-bottom-color #fff
+    &+.contact__label
+      opacity 0
+  &:hover
+    border-color #fff
+
+.contact__label
+  @extend .trs
+  color #ffffff
+  font-size 30px
+  font-weight 200
+  line-height 27px
+  letter-spacing 3px
+  opacity 0.41
+  position absolute
+  top 10px
+  left 10px
+  &.hide
+    opacity 0
+
+.contact__textarea
+  border: 1px solid rgba(#fff, 0.29)
+  width 100%
+  height 135px
+
+.contact__btn
+  margin-top 40px

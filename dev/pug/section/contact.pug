@@ -1,0 +1,19 @@
+section.contact#contact
+  .container
+    .contact__wrap
+      .contact__social
+        each val in content.links.social.contact
+          a.contact__el(href=val["href"])
+            img(src=val["src"], alt=val["alt"])
+      .contact__content
+        h2.contact__title= content.contact.title
+        p.contact__text= content.contact.text
+        form.contact__form(action="#")
+          each val in content.contact.form.list
+            .contact__group
+              input.contact__input(id=val["id"] name=val["name"] data-name=val["dataName"] type=val["type"])
+              label.contact__label(for=val["id"])= val["label"]
+          .contact__group.contact__group--textarea
+            textarea.contact__input.contact__textarea(id=content.contact.form.textarea.id name=content.contact.form.textarea.name)
+            label.contact__label= content.contact.form.textarea.label
+          button.btn.btn--dark.contact__btn(type=content.contact.form.btn.type)= content.contact.form.btn.text
