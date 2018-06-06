@@ -1,4 +1,25 @@
 {
+  "links": {
+    "social": {
+      "about": [
+        {
+          "src": "app/img/general/vk.png",
+          "alt": "Vk",
+          "href": "#"
+        },
+        {
+          "src": "app/img/general/inst.png",
+          "alt": "Inst",
+          "href": "#"
+        },
+        {
+          "src": "app/img/general/fb.png",
+          "alt": "Fb",
+          "href": "#"
+        }
+      ]
+    }
+  },
   "header": {
     "big": [
       {
@@ -104,9 +125,17 @@
   },
   "about": {
     "count": "01",
-    "review": "Once upon i just asked myself, what a can do by my brains? The answer was single - web design.  ",
     "title": "Who I’m",
+    "quote": {
+      "src": "app/img/content/about/quote.png",
+      "alt": "Quote"
+    },
+    "review": "Once upon i just asked myself, what a can do by my brains? The answer was single - web design.  ",
     "header": "Not ordinary man from the biggest country",
+    "photo": {
+      "src": "app/img/content/about/photo.jpg",
+      "alt": "Евгений Егоров Фото"
+    },
     "info": "simple talk, unusual approach",
     "texts": [
       {
@@ -116,5 +145,174 @@
         "item": "If you want to hear how i get started in digital sphere - it was not a long story."
       }
     ]
+  },
+  "doing": {
+    "big": [
+      {
+        "char": "W"
+      },
+      {
+        "char": "H"
+      },
+      {
+        "char": "A"
+      },
+      {
+        "char": "T"
+      },
+      {
+        "char": "I"
+      },
+      {
+        "char": "D"
+      },
+      {
+        "char": "O"
+      }
+    ],
+    "small": [
+      {
+        "char": "what"
+      },
+      {
+        "char": "i"
+      },
+      {
+        "char": "do"
+      }
+    ],
+    "count": "02",
+    "subtitle": "Simple, grid, minimalism",
+    "text": "Before making some, think twice - is it necessary."
+  },
+  "kitchen": {
+    "icon": {
+      "src": "app/img/content/kitchen/medium.jpg",
+      "alt": "Meduin Photo"
+    },
+    "img": {
+      "src": "app/img/content/kitchen/bg.jpg",
+      "alt": "Kitchen Background"
+    },
+    "title": "YOU CAN  SEE ALL DETAILS AND CREATIVE KITCHEN",
+    "text": "Web design - is the thing which i started with. Now, producing of landings, promo pages and web stores is the major branch that i can do. It is nessesary to studing always. This is the reason to take a new knowledges in Ui/Ux design.",
+    "link": {
+      "href": "#",
+      "text": "WANT TO SEE A KITCHEN"
+    }
+  },
+  "works": {
+    "count": "03",
+    "title": "my works",
+    "big": [
+      {
+        "char": "M"
+      },
+      {
+        "char": "y"
+      },
+      {
+        "char": "w"
+      },
+      {
+        "char": "o"
+      },
+      {
+        "char": "r"
+      },
+      {
+        "char": "k"
+      },
+      {
+        "char": "s"
+      }
+    ],
+    "img": {
+      "src": "app/img/content/works/valuns.jpg",
+      "alt": "Photo valuns"
+    },
+    "icon": {
+      "src": "app/img/content/works/behance.png",
+      "alt": "Behance icon"
+    },
+    "subtitle": "Some of my pretty works",
+    "text": "Look down and you will see some of my works, creating early at the start of 2018 year. Some of them are realy, some of them are virtualy created.",
+    "link": {
+      "href": "#",
+      "text": "WATCH CASES"
+    }
+  },
+  "landing": {
+    "img": {
+      "src": "app/img/content/landing/preview.png",
+      "alt": "Landing Preview"
+    },
+    "title": "Real Stuff - real money, Landing",
+    "texts": [
+      {
+        "item": "This is my first real project for real customer, that i take a part and get real money for freelance."
+      },
+      {
+        "item": "This is a small busines belong’s to producing t-shirt prints, making numbers and surnames."
+      }
+    ],
+    "link": {
+      "href": "#",
+      "text": "WATCH FULL VERSION"
+    }
+  },
+  "zhirapp": {
+    "img": {
+      "src": "app/img/content/zhirapp/img.jpg",
+      "alt": "Zhirapp Img"
+    },
+    "preview": {
+      "src": "app/img/content/zhirapp/preview.jpg",
+      "alt": "Zhirapp Preview"
+    }
+  },
+  "app": {
+    "img": {
+      "src": "app/img/content/app/img.jpg",
+      "alt": "App Img"
+    },
+    "title": "a Mobile application Expierence",
+    "text": "The first mobile smart application, that can help you control all you pets. You have a lot of cats? ZHIR help you to feed them in right time.",
+    "link": {
+      "href": "#",
+      "text": "WATCH FULL VERSION"
+    }
+  },
+  "dialog": {
+    "img": {
+      "src": "app/img/content/dialog/img.jpg",
+      "alt": "Dialog Img"
+    },
+    "list": [
+      {
+        "item": "Hello where is your projects?"
+      },
+      {
+        "item": "Hello, bro, I have a lot of work last time, and no time to refresh my portfolio."
+      },
+      {
+        "item": "Ohhoho) I have some new ideas, have you got an expierence to create a tattoo studio landings?"
+      },
+      {
+        "item": "Of cource, yes. I can send some examles to watch"
+      },
+      {
+        "item": "Ok, thank you, bro."
+      },
+      {
+        "item": "Not, a problem - you can write me down"
+      }
+    ],
+    "title": "New projects coming soon...",
+    "text": "Some of my new projects coming as soon, as you will order a new project from me. So you can watch them in my portfolio or can write personal to me if you have some questions.",
+    "link": {
+      "href": "#contacts",
+      "text": "CONTACT ME"
+    }
   }
 }

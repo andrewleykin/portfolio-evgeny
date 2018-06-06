@@ -1,7 +1,8 @@
 nav.nav
-  ul.mav__list
+  ul.nav__list
     each val in nav.navMain
       li.nav__item
-        a.nav__link(href=val["href"])= val["text"]
-        span.nav__counter= val["counter"]
+        a.nav__link.js-scroll-to(href=val["href"])
+          span.nav__name= val["text"]
+          span.nav__counter= val["counter"]
         

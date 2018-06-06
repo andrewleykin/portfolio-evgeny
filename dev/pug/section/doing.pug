@@ -1,0 +1,16 @@
+section.doing#doing
+  .container
+    .doing__wrap
+      h2.doing__title
+        each val in content.doing.big
+          span.doing__block(style={'animation-delay': getRandomInt(0.5,2)+'s'})= val["char"]
+      .doing__info
+        .doing__header
+          .doing__subtitle
+            each val in content.doing.small
+              span.doing__row= val["char"]
+          span.doing__count= content.doing.count
+        .doing__content
+          h3.doing__subtitle= content.doing.subtitle
+          p.doing__text Thanked to my first digital graphic teachers from the most responsible online schoon in Russia - <a href="https://skillbox.ru" target="_blank" class="underline">Skillbox</a>, which i studied last half of year, I&nbsp;teached for one importand think - do not overdo.
+          p.doing__text= content.doing.text

@@ -1,6 +1,5 @@
 .navigation
   position relative
-  height 700px
   &:before
     content ''
     display block
@@ -11,10 +10,18 @@
     left 0
     background-image linear-gradient(to top, #e0545d 0%, #e05475 100%)
     z-index -1
+  &.viewed
+    .navigation__block  
+      animation fade .3s forwards
+  
+  .container
+    position relative
+
 
 .navigation__wrap
   width 50%
   margin-left auto
+  padding-top 25px
 
 .navigation__title
   display flex
@@ -23,7 +30,9 @@
   top -5px
   bottom 0
   left 50%
-  transform translateX(-57%)
+  transform translateX(-54%)
+  width: 100%
+  justify-content: center
 
 .navigation__block
   writing-mode vertical-lr
@@ -34,12 +43,29 @@
   text-transform uppercase
   letter-spacing -0.23px
   text-align right
+  opacity 0
+  &:nth-child(1)
+    width: 105px
+  &:nth-child(2)
+    width: 95px
+  &:nth-child(3)
+    width: 85px
+  &:nth-child(4)
+    width: 75px
   &:nth-child(n+5)
     color accent-color
+    margin-left -5px
+  &:nth-child(n+12)
+    margin-left: -3px
+
+.navigation__menu
+  position absolute
+  top 0
+  right 0
 
 sizes = {
-  '1': 110px
-  '2': 98px
+  '1': 107px
+  '2': 95px
   '3': 81.2px
   '4': 66px
   '5': 53.6px

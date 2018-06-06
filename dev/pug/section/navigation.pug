@@ -3,7 +3,7 @@ section.navigation
     .navigation__wrap
       h2.navigation__title
         - for(var i = 1; i < 17; i++)
-          span.navigation__block(class="navigation__block--" + i)= content.navigation.about
+          span.navigation__block(class="navigation__block--" + i style={'animation-delay': getRandomInt(0,2)+'s'})= content.navigation.about
       .navigation__img
         img(src=content.navigation.img.src, alt=content.navigation.img.alt)
       .navigation__menu

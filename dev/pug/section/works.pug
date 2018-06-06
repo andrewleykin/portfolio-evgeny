@@ -1,0 +1,20 @@
+section.works#works
+  .container
+    .works__wrap
+      .works__img
+        img(src=content.works.img.src, alt=content.works.img.alt)
+        span.works__count= content.works.count
+        span.works__name= content.works.title
+        h2.works__title
+          each val in content.works.big
+            span.works__block= val["char"] 
+      .works__content
+        .works__header
+          .works__icon
+            img(src=content.works.icon.src, alt=content.works.icon.alt)
+          h3.works__subtitle= content.works.subtitle
+        .works__info
+          p.works__text= content.works.text
+          p.works__text Some of them are on <a href="#" class="underline">Behance.net</a>, but there is not much time to create all the cases there, so wait fot your likes
+          a.btn.btn--dark.works__link(href=content.works.link.href)= content.works.link.text 
+

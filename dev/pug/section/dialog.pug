@@ -1,0 +1,13 @@
+section.dialog
+  .container
+    .dialog__wrap
+      .dialog__img
+        img(src=content.dialog.img.src, alt=content.dialog.img.alt)
+      .dialog__content
+        .dialog__list
+          each val in content.dialog.list
+            span.dialog__item= val["item"]
+        .dialog__info
+          h2.dialog__title= content.dialog.title
+          p.dialog__text= content.dialog.text
+          a.btn.btn--dark.dialog__link.js-scroll-to(href=content.dialog.link.href)= content.dialog.link.text

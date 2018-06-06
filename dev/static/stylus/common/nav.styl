@@ -1,0 +1,40 @@
+.nav__list
+ display flex
+ align-items: flex-start
+
+.nav__item
+  &+&
+    margin-left 60px
+  for i in 1..4
+    &:nth-child({i})
+      margin-top (105*i)px
+
+.nav__link
+  display flex
+  color #280000
+  font-weight 300
+  text-transform uppercase
+  letter-spacing 0.9px
+  &:hover
+    color: black
+    .nav__name
+      &:before
+        background-color accent-color
+
+.nav__name
+  writing-mode vertical-lr
+  transform rotate(180deg)
+  margin-left 10px
+  display flex
+  &:before
+    content ''
+    display block
+    width 1px
+    height 107px
+    background-color rgba(accent-color, 0.47)
+    margin-left -5px
+    @extend .trs
+
+.nav__counter
+  align-self flex-end
+  margin-left 10px

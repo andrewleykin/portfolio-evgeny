@@ -1,0 +1,91 @@
+.about
+  background-color black-color
+  padding 100px 0 118px
+  color #fff
+
+.about__wrap
+  display flex
+  justify-content space-between
+  padding 0 perc(138) 0 perc(143)
+
+.about__block
+  width 100%
+  display flex
+  flex-direction column
+  &:first-child
+    max-width 271px
+    margin-right 15px
+  &:last-child
+    max-width 745px
+
+.about__count
+  opacity 0.63
+  color #292929
+  font-size 123px
+  font-weight 900
+  text-transform uppercase
+  writing-mode vertical-lr
+  transform rotate(180deg)
+  align-self: flex-start
+  margin-bottom 17px
+  height 160px
+
+.about__title
+  opacity 0.36
+  text-transform uppercase
+  writing-mode vertical-lr
+  transform rotate(180deg)
+  padding-left 40px
+  margin-bottom 30px
+
+.about__quote
+  margin-bottom 33px
+
+.about__text
+  font-size 18px
+  line-height 27px
+  font-weight 200
+  letter-spacing 0.6px
+  &+&
+    margin-top 20px
+
+.about__header
+  font-size 30px
+  font-weight 300
+  line-height 40px
+  text-transform uppercase
+  letter-spacing 3px
+  max-width 530px
+  margin-bottom 54px
+
+.about__info
+  display flex
+
+.about__photo
+  margin-right perc(84)
+  flex none
+
+.about__descr
+  max-width 333px
+
+.about__subheader
+  font-size 24px
+  line-height 30px
+  text-transform uppercase
+  letter-spacing 2.4px
+  display block
+  margin-bottom 30px
+
+.about__social
+  margin-top 45px
+  display flex
+  justify-content flex-end
+  align-items: flex-end
+
+.about__item
+  opacity 0.5
+  @extend .trs
+  &:hover
+    opacity 1
+  &+&
+    margin-left 24px

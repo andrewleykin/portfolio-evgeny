@@ -1,0 +1,23 @@
+section.about#about
+  .container
+    .about__wrap
+      .about__block
+        span.about__count= content.about.count
+        h2.about__title= content.about.title
+        .about__quote
+          img(src=content.about.quote.src, alt=content.about.quote.alt)
+        p.about__text.italic= content.about.review
+      .about__block
+        h3.about__header Not ordinary man from&nbsp;the biggest country
+        .about__info
+          .about__photo
+            img(src=content.about.photo.src, alt=content.about.photo.alt)
+          .about__descr
+            span.about__subheader= content.about.info
+            each val in content.about.texts
+              p.about__text= val["item"]
+            .about__social
+              each val in content.links.social.about
+                a.about__item(href=val["href"])
+                  img(src=val["src"], alt=val["alt"])
+                

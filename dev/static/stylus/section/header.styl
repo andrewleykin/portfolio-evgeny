@@ -1,5 +1,7 @@
 .header
   padding 80px 0 27px
+  height calc(100vh + 5px)
+  min-height 650px
 
 .header__wrap
   position relative
@@ -20,7 +22,7 @@
   margin-bottom 67px
   opacity 0
   animation fade .3s forwards
-  transition all .2s
+  @extend .trs
   cursor: pointer
   &:hover
     transform scale(1.1)
@@ -114,21 +116,3 @@
     bottom 0
     animation line .5s forwards
     animation-delay: 1.2s
-
-@keyframes line {
-  from {
-    width 0
-  }
-  to {
-    width 100%
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity 0
-  }
-  to {
-    opacity 1
-  }
-}

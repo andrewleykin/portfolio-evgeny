@@ -8,17 +8,17 @@
     {
       "text": "What i do",
       "href": "#doing",
-      "counter": "01"
+      "counter": "02"
     },
     {
       "text": "MY WORKS",
       "href": "#works",
-      "counter": "01"
+      "counter": "03"
     },
     {
       "text": "Contact me",
       "href": "#contact",
-      "counter": "01"
+      "counter": "04"
     }
   ]
 }
