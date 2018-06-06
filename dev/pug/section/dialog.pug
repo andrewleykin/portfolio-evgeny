@@ -5,8 +5,9 @@ section.dialog
         img(src=content.dialog.img.src, alt=content.dialog.img.alt)
       .dialog__content
         .dialog__list
-          each val in content.dialog.list
-            span.dialog__item= val["item"]
+          .dialog__inner
+            each val in content.dialog.list
+              span.wow.fadeInUp.dialog__item= val["item"]
         .dialog__info
           h2.dialog__title= content.dialog.title
           p.dialog__text= content.dialog.text

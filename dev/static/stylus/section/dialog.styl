@@ -1,0 +1,87 @@
+.dialog__wrap
+  display flex
+
+.dialog__img
+  width 100%
+  max-width perc(782)
+  img
+    width 100%
+
+.dialog__content
+  width 100%
+  max-width perc(582)
+
+.dialog__list
+  background-color black-color
+  padding 45px 49px 44px 52px
+  width 100%
+
+.dialog__inner
+  max-width 490px
+  position relative
+  &:after
+    content ''
+    display block
+    width 1px
+    height 507px
+    background-color accent-color
+    opacity 0.33
+    position absolute
+    top 0px
+    left 50%
+    transform translateX(-50%)
+
+
+.dialog__item
+  display block
+  max-width 213px
+  background-color #ffffff
+  color #000000
+  font-weight 300
+  line-height 24px
+  letter-spacing -0.5px
+  padding 9px 10px 9px 15px
+  position relative
+  &+&
+    margin-top 3px
+  &:before,&:after
+    content ''
+    display block
+    position absolute
+    background accent-color
+  &:before
+    width 9px
+    height 9px
+    top 0
+  &:after
+    width 18px
+    height 1px
+    opacity 0.85
+    top 3px
+  &:nth-child(odd)
+    &:before,&:after
+      right -37px
+  &:nth-child(even)
+    margin-left: auto
+    &:before,&:after
+      left -37px
+
+.dialog__info
+  max-width 335px
+  margin-left 125px
+  margin-top 87px
+  color #000000
+
+.dialog__title
+  font-size 24px
+  font-weight 300
+  text-transform uppercase
+  letter-spacing 0.4px
+  margin-bottom 30px
+
+.dialog__text
+  font-size 18px
+  font-weight 200
+  line-height 27px
+  letter-spacing 0.5px
+  margin-bottom 60px

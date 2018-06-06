@@ -4,7 +4,8 @@ section.landing
       .landing__img
         img(src=content.landing.img.src, alt=content.landing.img.alt)
       .landing__content
-        h2.landing__title= content.landing.title
-        each val in content.landing.texts
-          p.landing__text= val["item"]
-        a.btn.landing__link(href=content.landing.link.href)= content.landing.link.text
+        .landing__info
+          h2.landing__title= content.landing.title
+          each val in content.landing.texts
+            p.landing__text= val["item"]
+          a.btn.landing__link(href=content.landing.link.href)= content.landing.link.text
