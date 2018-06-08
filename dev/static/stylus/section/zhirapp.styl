@@ -2,9 +2,13 @@
   height 390px
   position relative
   overflow hidden
+  @media (max-width screen-lg)
+    height auto
 
 .zhirapp__wrap
   display flex
+  @media (max-width screen-md)
+    flex-direction column-reverse
 
 .zhirapp__img
   width 100%
@@ -13,9 +17,22 @@
   flex none
   img
     width 100%
+  @media (max-width screen-md)
+    max-width 100%
 
 .zhirapp__preview
   width 100%
   max-width perc(582)
   img
     width 100%
+  @media (max-width screen-lg)
+    position absolute
+    right 1px
+  @media (max-width screen-md)
+    max-width 100%
+    position static
+    right 0
+    max-height 300px
+    overflow hidden
+  @media (max-width screen-sm)
+    max-height 200px

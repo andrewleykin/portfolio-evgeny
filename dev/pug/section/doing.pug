@@ -6,7 +6,7 @@ section.doing#doing
           span.doing__block(style={'animation-delay': getRandomInt(0.5,2)+'s'})= val["char"]
       .doing__info
         .doing__header
-          .doing__subtitle
+          .doing__name
             each val in content.doing.small
               span.doing__row= val["char"]
           span.doing__count= content.doing.count

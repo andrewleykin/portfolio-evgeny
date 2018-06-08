@@ -5,5 +5,7 @@ mixin icon(name,mod)
 
 -
 - var getRandomInt = function(min, max) {
--   return Math.random() * (max - min) + min;
+-		var result = Math.random() * (max - min) + min;
+-		result = result.toFixed(2); 
+-   return result;
 - }

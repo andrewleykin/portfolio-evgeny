@@ -2,15 +2,26 @@
   background url('../img/content/contact/bg.jpg') center no-repeat
   background-size cover
   padding 70px 0 60px perc(156)
+  @media (max-width screen-md)
+    padding 30px 20px
+    background-position right 
 
 .contact__wrap
   display flex
   align-items: center
+  @media (max-width screen-sm)
+    flex-direction column-reverse
 
 .contact__social
   margin-right perc(67)
   display flex
   flex-direction column
+  @media (max-width screen-sm)
+    margin-right 0
+    margin-top 40px
+    flex-direction row
+    justify-content center
+    align-items: center
 
 .contact__el
   opacity 0.8
@@ -19,10 +30,16 @@
     opacity 1
   &+&
     margin-top 22px
+  @media (max-width screen-sm)
+    &+&
+      margin-top 0
+      margin-left 20px
 
 .contact__content
   max-width 463px
   color #ffffff
+  @media (max-width screen-sm)
+    max-width 100%
 
 .contact__title
   font-size 30px
@@ -37,6 +54,9 @@
   letter-spacing 0.4px
   margin-bottom 55px
   max-width 345px
+  @media (max-width screen-sm)
+    max-width 100%
+    margin-bottom 30px
 
 .contact__group
   position relative

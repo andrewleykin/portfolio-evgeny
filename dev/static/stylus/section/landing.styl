@@ -1,5 +1,9 @@
 .landing__wrap
   display flex
+  @media (max-width screen-md)
+    flex-direction column
+    align-items: center
+    justify-content center
 
 .landing__img
   width 100%
@@ -9,6 +13,9 @@
   background #fff
   max-width perc(782)
   flex none
+  @media (max-width screen-md)
+    max-width 100%
+    margin-bottom 40px
 
 .landing__content
   background black-color
@@ -16,9 +23,16 @@
   width 100%
   max-width perc(584)
   padding 172px 104px 148px 105px
+  @media (max-width screen-lg)
+    padding 30px 40px
+  @media (max-width screen-md)
+    max-width 100%
+    text-align center
 
 .landing__info
   max-width 335px
+  @media (max-width screen-lg)
+    max-width 100%
 
 .landing__title
   font-size 24px
@@ -27,6 +41,8 @@
   letter-spacing 1.8px
   margin-bottom 35px
   padding-left 11px
+  @media (max-width screen-lg)
+    padding-left 0
 
 .landing__text
   font-weight 200
@@ -34,7 +50,12 @@
   letter-spacing 0.7px
   &+&
     margin-top 25px
+  @media (max-width screen-md)
+    &+&
+      margin-top 15px
 
 .landing__link
   margin-top 50px
   max-width 335px
+  @media (max-width screen-md)
+    margin 25px auto 0

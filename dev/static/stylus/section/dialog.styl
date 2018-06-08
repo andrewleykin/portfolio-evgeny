@@ -4,17 +4,27 @@
 .dialog__img
   width 100%
   max-width perc(782)
-  img
-    width 100%
+  background url(../img/content/dialog/img.jpg) center no-repeat
+  background-size cover
+  @media (max-width screen-md)
+    max-width 30%
+  @media (max-width screen-sm)
+    display none
 
 .dialog__content
   width 100%
   max-width perc(582)
+  @media (max-width screen-md)
+    max-width 70%
+  @media (max-width screen-sm)
+    max-width 100%
 
 .dialog__list
   background-color black-color
   padding 45px 49px 44px 52px
   width 100%
+  @media (max-width screen-sm)
+    padding 30px
 
 .dialog__inner
   max-width 490px
@@ -30,6 +40,10 @@
     top 0px
     left 50%
     transform translateX(-50%)
+  @media (max-width screen-lg)
+    max-width 100%
+    &:after
+      display none
 
 
 .dialog__item
@@ -65,12 +79,20 @@
     margin-left: auto
     &:before,&:after
       left -37px
+  @media (max-width screen-lg)
+    &+&
+      margin-top 10px
 
 .dialog__info
   max-width 335px
   margin-left 125px
   margin-top 87px
   color #000000
+  @media (max-width screen-lg)
+    max-width 100%
+    margin-top 0
+    margin-left 0
+    padding 20px
 
 .dialog__title
   font-size 24px

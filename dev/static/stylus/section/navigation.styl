@@ -13,6 +13,9 @@
   &.viewed
     .navigation__block  
       animation fade .3s forwards
+  @media (max-width screen-lg)
+    &:before
+      display none
   
   .container
     position relative
@@ -22,6 +25,15 @@
   width 50%
   margin-left auto
   padding-top 25px
+  min-width 671px
+  @media (max-width screen-lg)
+    width 100%
+    max-width: 100%
+    padding 0px
+    min-width auto
+  @media (max-width screen-sm)
+    padding-top 80px
+  
 
 .navigation__title
   display flex
@@ -33,6 +45,13 @@
   transform translateX(-54%)
   width: 100%
   justify-content: center
+  @media (max-width screen-lg)
+    top 0
+    left 0
+    transform none
+    flex-direction column
+    padding-left 20px
+    justify-content: flex-start
 
 .navigation__block
   writing-mode vertical-lr
@@ -57,11 +76,35 @@
     margin-left -5px
   &:nth-child(n+12)
     margin-left: -3px
+  @media (max-width screen-lg)
+    writing-mode lr
+    transform none
+    color accent-color
+    text-align left
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3),
+    &:nth-child(4)
+      width auto
+  @media (max-width screen-md)
+    &:nth-child(-n+4)
+      display none
 
 .navigation__menu
   position absolute
   top 0
   right 20px
+  @media (max-width screen-lg)
+    top 90px
+  @media (max-width screen-md)
+    top 50%
+    transform translateY(-50%)
+
+.navigation__img
+  @media (max-width screen-lg)
+    display flex
+    justify-content: center
+    align-items: center
 
 sizes = {
   '1': 107px

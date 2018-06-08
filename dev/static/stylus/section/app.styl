@@ -2,7 +2,7 @@
   display flex
 
 .app__content
-  padding 10px 0 10px
+  padding 10px 0
   width 100%
   max-width perc(782)
   flex none
@@ -11,6 +11,10 @@
   justify-content center
   flex-direction column
   color #000000
+  @media (max-width screen-md)
+    max-width 100%
+    text-align center
+    padding 30px 0
 
 .app__info
   max-width 336px
@@ -37,3 +41,8 @@
   max-width perc(582)
   img
     width 100%
+  @media (max-width screen-lg)
+    img
+      height 100%
+  @media (max-width screen-md)
+    display none

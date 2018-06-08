@@ -1,6 +1,8 @@
 .nav__list
- display flex
- align-items: flex-start
+  display flex
+  align-items: flex-start
+  @media (max-width screen-md)
+    flex-direction column
 
 .nav__item
   &+&
@@ -8,6 +10,15 @@
   for i in 1..4
     &:nth-child({i})
       margin-top (105*i)px
+  @media (max-width screen-lg)
+    &+&
+      margin-left 15px
+  @media (max-width screen-md)
+    &:nth-child(1)
+      margin-top 0
+    &+&
+      margin-left 0
+      margin-top 15px
 
 .nav__link
   display flex
@@ -20,6 +31,8 @@
     .nav__name
       &:before
         background-color accent-color
+  @media (max-width screen-md)
+    flex-direction column
 
 .nav__name
   writing-mode vertical-lr
@@ -34,6 +47,15 @@
     background-color rgba(accent-color, 0.47)
     margin-left -5px
     @extend .trs
+  @media (max-width screen-md)
+    writing-mode lr
+    transform none
+    display flex
+    flex-direction column-reverse
+    &:before
+      width 107px
+      height 1px
+      margin-left 0
 
 .nav__counter
   align-self flex-end

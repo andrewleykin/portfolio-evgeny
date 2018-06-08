@@ -2,11 +2,18 @@
   background-color black-color
   padding 100px 0 118px
   color #fff
+  @media (max-width screen-lg)
+    padding 80px 0 90px
 
 .about__wrap
   display flex
   justify-content space-between
   padding 0 perc(138) 0 perc(143)
+  @media (max-width screen-lg)
+    padding 0 perc(70)
+  @media (max-width screen-sm)
+    display block
+    padding 0 20px
 
 .about__block
   width 100%
@@ -18,6 +25,18 @@
   &:last-child
     max-width 745px
     animation-delay: .5s
+  @media (max-width screen-lg)
+    &:first-child
+      max-width 160px
+  @media (max-width screen-lg)
+    justify-content center
+    align-items: center
+    text-align center 
+    &:first-child
+      max-width 100%
+      margin-bottom 40px
+    &:last-child
+      max-width 100%
 
 .about__count
   opacity 0.63
@@ -30,6 +49,11 @@
   align-self: flex-start
   margin-bottom 17px
   height 160px
+  @media (max-width screen-lg)
+    height auto
+    writing-mode lr
+    transform none
+    align-self auto
 
 .about__title
   opacity 0.36
@@ -38,6 +62,10 @@
   transform rotate(180deg)
   padding-left 40px
   margin-bottom 30px
+  @media (max-width screen-lg)
+    writing-mode lr
+    transform none
+    padding-left 0
 
 .about__quote
   margin-bottom 33px
@@ -58,13 +86,21 @@
   letter-spacing 3px
   max-width 530px
   margin-bottom 54px
+  @media (max-width screen-md)
+    max-width 100%
+    margin-bottom 25px
 
 .about__info
   display flex
+  @media (max-width screen-lg)
+    display block
 
 .about__photo
   margin-right perc(84)
   flex none
+  @media (max-width screen-lg)
+    margin-right 0
+    margin-bottom 25px
 
 .about__descr
   max-width 333px
@@ -82,6 +118,9 @@
   display flex
   justify-content flex-end
   align-items: flex-end
+  @media (max-width screen-md)
+    align-items: center
+    justify-content center
 
 .about__item
   opacity 0.5
