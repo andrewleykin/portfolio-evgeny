@@ -68,14 +68,14 @@
     padding-left 0
 
 .about__quote
-  margin-bottom 33px
+  margin-bottom 27px
 
 .about__text
   line-height 27px
   font-weight 200
   letter-spacing 0.6px
   &+&
-    margin-top 20px
+    margin-top 10px
 
 .about__header
   font-size 30px
@@ -83,7 +83,7 @@
   line-height 40px
   text-transform uppercase
   letter-spacing 3px
-  max-width 530px
+  max-width 580px
   margin-bottom 54px
   @media (max-width screen-md)
     max-width 100%
@@ -91,14 +91,24 @@
 
 .about__info
   display flex
+  justify-content space-between
   @media (max-width screen-lg)
     display block
 
 .about__photo
-  margin-right perc(84)
   flex none
+  position relative
+  &:after
+    content ''
+    position absolute
+    right -60px
+    top 80px
+    display block
+    width 60px
+    height 1px
+    background-color #ffffff
+    opacity 0.57
   @media (max-width screen-lg)
-    margin-right 0
     margin-bottom 25px
 
 .about__descr
@@ -110,10 +120,11 @@
   text-transform uppercase
   letter-spacing 2.4px
   display block
-  margin-bottom 30px
+  margin-bottom 15px
+  margin-top -3px
 
 .about__social
-  margin-top 45px
+  margin-top 25px
   display flex
   justify-content flex-end
   align-items: flex-end
