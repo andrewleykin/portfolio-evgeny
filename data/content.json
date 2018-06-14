@@ -57,7 +57,8 @@
       {
         "chart": "R",
         "mod": "red",
-        "delay": ".45s"
+        "delay": ".45s",
+        "year": "2018"
       },
       {
         "chart": "T",
@@ -250,8 +251,18 @@
       }
     ],
     "img": {
-      "src": "app/img/content/works/valuns.jpg",
-      "alt": "Photo valuns"
+      "valuns": {
+        "src": "app/img/content/works/valuns.png",
+        "alt": "Photo valuns"
+      },
+      "valun": {
+        "src": "app/img/content/works/valun.png",
+        "alt": "Photo valun"
+      }, 
+      "sky": {
+        "src": "app/img/content/works/sky.jpg",
+        "alt": "Photo sky"
+      }
     },
     "icon": {
       "src": "app/img/content/works/behance.png",

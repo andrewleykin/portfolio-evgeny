@@ -1,14 +1,16 @@
 section.works#works
   .container
     .works__wrap
-      .works__img.wow.fadeInLeft
-        img(src=content.works.img.src, alt=content.works.img.alt)
-        span.works__count= content.works.count
-        span.works__name= content.works.title
+      .works__img
+        img.works__img--sky(src=content.works.img.sky.src, alt=content.works.img.sky.alt)
+        img.works__img--valun(src=content.works.img.valun.src, alt=content.works.img.valun.alt)
         h2.works__title
           each val in content.works.big
-            span.works__block= val["char"] 
-      .works__content.wow.fadeInRight
+            span.works__block= val["char"]
+        img.works__img--valuns(src=content.works.img.valuns.src, alt=content.works.img.valuns.alt)
+        span.works__count= content.works.count
+        span.works__name= content.works.title
+      .works__content
         .works__header
           .works__icon
             img(src=content.works.icon.src, alt=content.works.icon.alt)
