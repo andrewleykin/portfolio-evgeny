@@ -2,6 +2,7 @@ section.works#works
   .container
     .works__wrap
       .works__img
+        img.works__img--mobile(src=content.works.img.mobile.src, alt=content.works.img.mobile.alt)
         img.works__img--sky(src=content.works.img.sky.src, alt=content.works.img.sky.alt)
         img.works__img--valun(src=content.works.img.valun.src, alt=content.works.img.valun.alt)
         h2.works__title
@@ -17,6 +18,6 @@ section.works#works
           h3.works__subtitle= content.works.subtitle
         .works__info
           p.works__text= content.works.text
-          p.works__text Some of them are on <a href="#" class="underline">Behance.net</a>, but there is not much time to create all the cases there, so wait fot your likes
-          a.btn.btn--dark.works__link(href=content.works.link.href)= content.works.link.text 
+          p.works__text Some of them are on <a href="https://www.behance.net/" class="underline" target="_blank">Behance.net</a>, but there is not much time to create all the cases there, so wait fot your likes
+          a.btn.btn--dark.works__link(href=content.works.link.href target="_blank")= content.works.link.text 
 

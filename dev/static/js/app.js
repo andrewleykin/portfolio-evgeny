@@ -7,6 +7,9 @@
 	$(".doing").waypoint(function() {
 		$(this.element).addClass("viewed");
 	},{offset: '100%'});
+	$(".works").waypoint(function() {
+		$(this.element).addClass("viewed");
+	},{offset: '100%'});
 
 	function scrollNav() {
 		$('.js-scroll-to').on("click", function(){

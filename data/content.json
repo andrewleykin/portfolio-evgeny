@@ -5,39 +5,39 @@
         {
           "src": "app/img/general/vk.png",
           "alt": "Vk",
-          "href": "#"
+          "href": "https://vk.com/krasnyulesh"
         },
         {
           "src": "app/img/general/inst.png",
           "alt": "Inst",
-          "href": "#"
+          "href": "https://www.instagram.com/EVGENY.E1990/"
         },
         {
           "src": "app/img/general/fb.png",
           "alt": "Fb",
-          "href": "#"
+          "href": "https://www.facebook.com/profile.php?id=100022519920085"
         }
       ],
       "contact": [
         {
           "src": "app/img/general/vk-b.png",
           "alt": "Vk",
-          "href": "#"
+          "href": "https://vk.com/krasnyulesh"
         },
         {
           "src": "app/img/general/inst-b.png",
           "alt": "Inst",
-          "href": "#"
+          "href": "https://www.instagram.com/EVGENY.E1990/"
         },
         {
           "src": "app/img/general/fb-b.png",
           "alt": "Fb",
-          "href": "#"
+          "href": "https://www.facebook.com/profile.php?id=100022519920085"
         },
         {
           "src": "app/img/general/be-b.png",
           "alt": "Fb",
-          "href": "#"
+          "href": "https://www.behance.net/egorov120692d1"
         }
       ]
     }
@@ -220,7 +220,7 @@
     "title": "YOU CAN  SEE ALL DETAILS AND CREATIVE KITCHEN",
     "text": "Web design - is the thing which i started with. Now, producing of landings, promo pages and web stores is the major branch that i can do. It is nessesary to studing always. This is the reason to take a new knowledges in Ui/Ux design.",
     "link": {
-      "href": "#",
+      "href": "http://medium.com/@egorov120690",
       "text": "WANT TO SEE A KITCHEN"
     }
   },
@@ -262,6 +262,10 @@
       "sky": {
         "src": "app/img/content/works/sky.jpg",
         "alt": "Photo sky"
+      },
+      "mobile": {
+        "src": "app/img/content/works/bg.jpg",
+        "alt": "Works Bg"
       }
     },
     "icon": {
@@ -271,7 +275,7 @@
     "subtitle": "Some of my pretty works",
     "text": "Look down and you will see some of my works, creating early at the start of 2018 year. Some of them are realy, some of them are virtualy created.",
     "link": {
-      "href": "#",
+      "href": "https://www.behance.net/egorov120692d1",
       "text": "WATCH CASES"
     }
   },
@@ -290,7 +294,7 @@
       }
     ],
     "link": {
-      "href": "#",
+      "href": "https://www.behance.net/gallery/66398737/Small-Busines",
       "text": "WATCH FULL VERSION"
     }
   },
@@ -312,7 +316,7 @@
     "title": "a Mobile application Expierence",
     "text": "The first mobile smart application, that can help you control all you pets. You have a lot of cats? ZHIR help you to feed them in right time.",
     "link": {
-      "href": "#",
+      "href": "https://www.behance.net/gallery/64822263/Pet-smart-app",
       "text": "WATCH FULL VERSION"
     }
   },

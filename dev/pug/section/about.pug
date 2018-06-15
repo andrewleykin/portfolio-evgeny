@@ -18,6 +18,6 @@ section.about#about
               p.about__text= val["item"]
             .about__social
               each val in content.links.social.about
-                a.about__item(href=val["href"])
+                a.about__item(href=val["href"] target="_blank")
                   img(src=val["src"], alt=val["alt"])
                 
