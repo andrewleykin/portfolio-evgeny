@@ -356,6 +356,8 @@
     "title": "contact me",
     "text": "I hope that my portfolio really inpire you and there is no questions to trust me. Thank you for watching ",
     "form": {
+      "action": "app/mail/sendcontact.php",
+      "method": "POST",
       "textarea": {
         "name": "message",
         "id": "message",

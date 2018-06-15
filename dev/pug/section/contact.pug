@@ -8,7 +8,7 @@ footer.contact#contact
       .contact__content
         h2.contact__title= content.contact.title
         p.contact__text= content.contact.text
-        form.contact__form(action="#")
+        form.contact__form(action=content.contact.form.action method=content.contact.form.method)
           each val in content.contact.form.list
             .contact__group
               input.contact__input(id=val["id"] name=val["name"] data-name=val["dataName"] type=val["type"])
