@@ -2,9 +2,9 @@
 
 
 // настройки почты с которой будет приходить, надо указать почтовый ящик mail.ru
-$myUsername = ''; // логин от кого будет приходить
-$myUserpassword = ''; // пароль от кого будет приходить
+$myUsername = 'egorov120689@mail.ru'; // логин от кого будет приходить
+$myUserpassword = 'barcelona123'; // пароль от кого будет приходить
 
-$myAddress = 'a.scherbakov@basis.ru'; // кому будет уходить
+$myAddress = 'egorov120690@gmail.com'; // кому будет уходить
 
 ?>
